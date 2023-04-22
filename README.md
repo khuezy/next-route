@@ -27,3 +27,6 @@ const title = searchParams?.get("title") || "";
 // build doesn't error b/c this is a dynamic route, as expected
 await someAsyncFunc();
 ```
+
+5. `npm run build`
+6. Note the build is succesful b/c it treats /api/hello as dynamic
